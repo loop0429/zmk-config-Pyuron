@@ -41,10 +41,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W                  &kp E             &kp R             &kp T                     &kp Y        &kp U          &kp I        &kp O        &kp P
-&kp A             &kp S                  &kp D             &kp F             &kp G                     &kp H        &kp J          &kp K        &kp L        &lt 2 MINUS
-&mt LEFT_SHIFT Z  &kp X                  &kp C             &kp V             &kp B                     &mkp LCLK    &mkp RCLK      &kp N        &kp M        &kp COMMA
-&kp DOT           &mt RIGHT_SHIFT SLASH  &mt LCTRL ESCAPE  &mt LEFT_ALT TAB  &mt LEFT_META LANG_HANJA  &lt 3 SPACE  &kp BACKSPACE  &lt 1 ENTER  &lt 4 COLON  &lt 5 EQUAL
+&kp Q             &kp W                  &kp E             &kp R             &kp T                     &kp Y      &kp U          &kp I        &kp O      &kp P
+&kp A             &kp S                  &kp D             &kp F             &kp G                     &kp H      &kp J          &kp K        &kp L      &lt 2 MINUS
+&mt LEFT_SHIFT Z  &kp X                  &kp C             &kp V             &kp B                     &mkp LCLK  &mkp RCLK      &kp N        &kp M      &kp COMMA
+&kp DOT           &mt RIGHT_SHIFT SLASH  &mt LCTRL ESCAPE  &mt LEFT_ALT TAB  &mt LEFT_META LANG_HANJA  &kp SPACE  &kp BACKSPACE  &lt 1 ENTER  &kp COLON  &kp EQUAL
             >;
         };
 
@@ -68,10 +68,10 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans   &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
