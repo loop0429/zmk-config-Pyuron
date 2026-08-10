@@ -32,6 +32,13 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        onepass: onepass {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(S) &kp Z &kp R &kp K &kp NUMBER_9 &kp PERCENT &kp NUMBER_2 &kp NUMBER_2 &kp LS(F) &kp H &kp U &kp NUMBER_1 &kp NUMBER_8 &kp NUMBER_3 &kp A &kp LS(S) &kp ENTER>;
+            label = "ONEPASS";
+        };
     };
 
     lt_to_layer_0: lt_to_layer_0 {
@@ -62,10 +69,10 @@
 
         layer_1 {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN    &kp HASH           &kp DOLLAR            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3  &kp NUMBER_0
-&kp PERCENT      &kp AMPERSAND  &kp PIPE           &kp NON_US_BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp NUMBER_4  &kp NUMBER_5       &kp NUMBER_6  &kp ASTERISK
-&kp TILDE        &kp GRAVE      &kp DOUBLE_QUOTES  &kp SQT               &kp LEFT_BRACKET      &mkp MB1               &mkp MB2      &kp RIGHT_BRACKET  &kp NUMBER_7  &kp NUMBER_8
-&kp NUMBER_9     &kp LCTRL      &trans             &trans                &trans                &trans                 &trans        &trans             &trans        &trans
+&kp EXCLAMATION  &kp AT_SIGN    &kp HASH           &kp DOLLAR            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_0
+&kp PERCENT      &kp AMPERSAND  &kp PIPE           &kp NON_US_BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp NUMBER_4  &kp NUMBER_5       &kp NUMBER_6       &kp ASTERISK
+&kp TILDE        &kp GRAVE      &kp DOUBLE_QUOTES  &kp SQT               &kp LEFT_BRACKET      &mkp MB1               &mkp MB2      &kp RIGHT_BRACKET  &kp NUMBER_7       &kp NUMBER_8
+&kp NUMBER_9     &kp LCTRL      &onepass           &kp K_MUTE            &trans                &trans                 &trans        &trans             &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
             >;
         };
 
