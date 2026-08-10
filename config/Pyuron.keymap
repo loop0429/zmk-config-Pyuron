@@ -25,15 +25,6 @@
         };
     };
 
-    macros {
-        onepass: onepass {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(S) &kp Z &kp R &kp K &kp NUMBER_9 &kp PERCENT &kp NUMBER_2 &kp NUMBER_2 &kp LS(F) &kp H &kp U &kp NUMBER_1 &kp NUMBER_8 &kp NUMBER_3 &kp A &kp LS(S) &kp ENTER>;
-            label = "ONEPASS";
-        };
-    };
-
     lt_to_layer_0: lt_to_layer_0 {
         compatible = "zmk,behavior-hold-tap";
         label = "LAYER_TAP_TO_0";
@@ -53,10 +44,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W                  &kp E             &kp R             &kp T                     &kp Y      &kp U          &kp I        &kp O      &kp P
-&kp A             &kp S                  &kp D             &kp F             &kp G                     &kp H      &kp J          &kp K        &kp L      &lt 2 MINUS
-&mt LEFT_SHIFT Z  &kp X                  &kp C             &kp V             &kp B                     &mkp LCLK  &mkp RCLK      &kp N        &kp M      &kp COMMA
-&kp DOT           &mt RIGHT_SHIFT SLASH  &mt LCTRL ESCAPE  &mt LEFT_ALT TAB  &mt LEFT_META LANG_HANJA  &kp SPACE  &kp BACKSPACE  &lt 1 ENTER  &kp COLON  &kp EQUAL
+&kp Q             &kp W                  &kp E             &kp R             &kp T                     &kp Y      &kp U          &kp I             &kp O      &kp P
+&kp A             &kp S                  &kp D             &kp F             &kp G                     &kp H      &kp J          &kp K             &kp L      &lt 2 MINUS
+&mt LEFT_SHIFT Z  &kp X                  &kp C             &kp V             &kp B                     &kp TAB    &kp ENTER      &kp N             &kp M      &kp COMMA
+&kp DOT           &mt RIGHT_SHIFT SLASH  &mt LCTRL ESCAPE  &mt LEFT_ALT TAB  &mt LEFT_META LANG_HANJA  &kp SPACE  &kp BACKSPACE  &lt 1 LANGUAGE_1  &kp COLON  &kp EQUAL
             >;
         };
 
@@ -65,7 +56,7 @@
 &kp EXCLAMATION  &kp AT_SIGN    &kp HASH           &kp DOLLAR            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_0
 &kp PERCENT      &kp AMPERSAND  &kp PIPE           &kp NON_US_BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp NUMBER_4  &kp NUMBER_5       &kp NUMBER_6       &kp ASTERISK
 &kp TILDE        &kp GRAVE      &kp DOUBLE_QUOTES  &kp SQT               &kp LEFT_BRACKET      &mkp MB1               &mkp MB2      &kp RIGHT_BRACKET  &kp NUMBER_7       &kp NUMBER_8
-&kp NUMBER_9     &kp LCTRL      &onepass           &kp K_MUTE            &trans                &trans                 &trans        &trans             &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&kp NUMBER_9     &kp LCTRL      &trans             &kp K_MUTE            &trans                &trans                 &trans        &trans             &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
             >;
         };
 
