@@ -29,7 +29,7 @@
         onepass: onepass {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(S) &kp Z &kp R &kp K &kp NUMBER_9 &kp PERCENT &kp NUMBER_2 &kp NUMBER_2 &kp LS(F) &kp H &kp U &kp NUMBER_1 &kp NUMBER_8 &kp NUMBER_3 &kp LS(A) &kp S>;
+            bindings = <&kp LS(S) &kp Z &kp R &kp K &kp NUMBER_9 &kp PERCENT &kp NUMBER_2 &kp NUMBER_2 &kp LS(F) &kp H &kp U &kp NUMBER_1 &kp NUMBER_8 &kp NUMBER_3 &kp A &kp LS(S) &kp ENTER>;
             label = "ONEPASS";
         };
     };
