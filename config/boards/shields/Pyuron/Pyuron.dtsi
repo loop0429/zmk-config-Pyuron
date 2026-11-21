@@ -53,7 +53,7 @@ split_inputs {
             <&zip_xy_scaler 1 16>,
             <&zip_xy_to_scroll_mapper>,
             <&zip_scroll_scaler 2 3>;
-    　};
+        };
     };
 
     kscan0: kscan {
