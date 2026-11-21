@@ -74,10 +74,10 @@
 
         layer_1 {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN    &kp HASH           &kp DOLLAR            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_0
-&kp PERCENT      &kp AMPERSAND  &kp PIPE           &kp NON_US_BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp NUMBER_4  &kp NUMBER_5       &kp NUMBER_6       &kp ASTERISK
-&kp TILDE        &kp GRAVE      &kp DOUBLE_QUOTES  &kp SQT               &kp LEFT_BRACKET      &mkp MB1               &mkp MB2      &kp RIGHT_BRACKET  &kp NUMBER_7       &kp NUMBER_8
-&kp NUMBER_9     &kp LCTRL      &onepass           &kp K_MUTE            &trans                &trans                 &trans        &trans             &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&kp EXCLAMATION  &kp AT_SIGN    &kp HASH           &kp DOLLAR            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NUMBER_1   &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_0
+&kp PERCENT      &kp AMPERSAND  &kp PIPE           &kp NON_US_BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp NUMBER_4   &kp NUMBER_5       &kp NUMBER_6       &kp ASTERISK
+&kp TILDE        &kp GRAVE      &kp DOUBLE_QUOTES  &kp SQT               &kp LEFT_BRACKET      &kp LC(LEFT)           &kp LC(RIGHT)  &kp RIGHT_BRACKET  &kp NUMBER_7       &kp NUMBER_8
+&kp NUMBER_9     &kp LCTRL      &onepass           &kp K_MUTE            &trans                &trans                 &trans         &trans             &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
             >;
         };
 
