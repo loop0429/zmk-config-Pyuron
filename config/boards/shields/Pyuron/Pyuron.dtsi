@@ -35,7 +35,7 @@ split_inputs {
             <&zip_xy_scaler 1 16>,
             <&zip_xy_to_scroll_mapper>,
             <&zip_scroll_scaler 2 3>,
-            <&zip_temp_layer 6 1500>;
+            <&zip_temp_layer 6 750>;
     };
 
     trackball_listener_R: trackball_listener_R {
@@ -43,7 +43,7 @@ split_inputs {
       status = "disabled";
         input-processors =
             <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_Y_INVERT)>,
-            <&zip_temp_layer 6 1500>;
+            <&zip_temp_layer 6 750>;
 
       scroll_mode {
         layers = <5>;
